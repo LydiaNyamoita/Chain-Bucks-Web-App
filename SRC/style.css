@@ -1,3 +1,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
+
+body{
+  font-family: 'Playfair Display', serif;
+  display: grid;
+  background-color: #1b1c1d;
+  align-content: center;
+  max-width: 100%;
+} 
+span{
+  color: brown;
+}
+#home_page{
+  padding-top: 80px;
+}
+#home_background{
+  height: 500px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
