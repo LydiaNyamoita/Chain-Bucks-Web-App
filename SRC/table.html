@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="./styles.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xxx" crossorigin="anonymous">
+    <title>Crypo currency</title>
+</head>
+<body>
+    <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Crypto<span>Watch</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about_us">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#table.html">Markets</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.binance.com/en/my/dashboard">Binance</a></li>
+            <li><a class="dropdown-item" href="https://www1.fxpesa.com/home">FXpesa</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- table data  -->
+<div id="search_name" class="input-group mb-1">
+    <input type="text" class="form-control" placeholder="search by coin name" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">search</button>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Image</th>
+            <th scope="col">Price</th>
+            <th scope="col">Market Cap</th>
+            <th scope="col">Volume (24h)</th>
+            <th scope="col">Circulating Supply</th>
+            <th scope="col">Bitcoin Price</th>
+            <th scope="col">Last 7 days</th>
+          </tr>
+        </thead>
+        <tbody id="data-body">
+        </tbody>
+      </table>
+  </div>
+  
+  
+<!-- start footer -->
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#index.html">Home</a></li>
+            <li><a href="#about_us">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h4>Connect with Us</h4>
+          <ul class="social-media-icons">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+          <p>Email: info@yourcryptoapp.com</p>
+          <p>Phone: +1 (123) 456-7890</p>
+          <p>123 Main Street, City, State, ZIP</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="disclaimer">Disclaimer: The information provided on this app is for informational purposes only. Investing in cryptocurrencies carries a risk of financial loss. Users should conduct their own research and seek professional advice before making any investment decisions.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="copyright">© 2023 Your Crypto App. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
