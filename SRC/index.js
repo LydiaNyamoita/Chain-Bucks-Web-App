@@ -69,7 +69,13 @@ fetch('https://api.coinranking.com/v2/coins')
     };
 
     // Event listener for the search button
-    searchButton.addEventListener('click', filterCoinsByName);
+    searchButton.addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent default form submission behavior
+      filterCoinsByName();
+    });
+
+    // Event listener for the search input field
+    searchInput.addEventListener('input', filterCoinsByName);
 
     // Initial display of all coins
     displayCoins(data.data.coins);
