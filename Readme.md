@@ -14,7 +14,6 @@ This is a web application that provides real-time information about cryptocurren
 1. Clone the repository or download the source code.
 2. Open the `index.html` file in a web browser.
 3. The app will automatically fetch data from the CoinRanking API and display the cryptocurrency table.
-4. Use the search input field to filter cryptocurrencies by name.
 
 ## Features
 - Interactive table displaying real-time cryptocurrency data.
