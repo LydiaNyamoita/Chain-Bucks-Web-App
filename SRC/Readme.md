@@ -1,4 +1,4 @@
-# Crypto Web App
+# CHAIN BUCKS
 
 ## Description
 This is a web application that provides real-time information about cryptocurrencies. It fetches data from the CoinRanking API to display a table with details such as cryptocurrency names, prices, market caps, volumes (24h), circulating supplies, and price changes over the last 7 days. 
