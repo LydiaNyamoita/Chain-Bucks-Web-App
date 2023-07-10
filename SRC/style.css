@@ -67,11 +67,16 @@ body{
   display: grid;
  align-content: center;
     max-width: 100%;
+   
 }
 
 #about-us{
-  width: 600px;
-  
+
+}
+
+#about-us-image{
+  width: 550px;
+  height: 600px;
 }
 
 #home-background{
